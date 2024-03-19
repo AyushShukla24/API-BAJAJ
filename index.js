@@ -36,7 +36,8 @@ app.post('/bajaj1',(req,res)=>{
 
   res.status(200).json(response);
 });
+const port=process.env.PORT || 3000;
 
-app.listen(3000,()=>{
+app.listen(port,()=>{
   console.log("running at 3000")
 });
