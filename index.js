@@ -27,6 +27,7 @@ app.post('/bajaj1',(req,res)=>{
   const response={
     is_success:true,
     user_id:userId,
+    email:email,
     roll_number:rollno,
     odd_number:odd,
     even_number:even,
